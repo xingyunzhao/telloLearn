@@ -11,7 +11,7 @@ print(my_drone.get_battery())
 my_drone.streamon()
 my_drone.takeoff()
 my_drone.send_rc_control(0, 0, 25, 0)
-time.sleep(3.2)
+time.sleep(3.0)
 
 
 w, h = 360, 240
